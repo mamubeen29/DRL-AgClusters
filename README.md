@@ -20,7 +20,7 @@ We have developed a pioneering Deep Reinforcement Learning (DRL) framework for e
    - **Monometallic Example:** For simulating a cluster of 15 Silver (Ag) atoms:
      ```python
      eleNames = ['Ag']
-     eleNums = [15]
+     eleNums = [13]
      ```
 
 3. **Run the Simulation:**
