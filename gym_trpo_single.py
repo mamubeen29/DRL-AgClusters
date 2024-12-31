@@ -16,8 +16,8 @@ from callback import Callback
 timesteps = 200
 num_parallel = 48
 #seed = 30
-eleNames = ['Cu']
-eleNums = [20]
+eleNames = ['Ag']
+eleNums = [13]
 clus_seed = None
 save_dir = 'result_' + ''.join(f"{name}{num}" for name, num in zip(eleNames, eleNums)) + '/'
 
@@ -87,6 +87,6 @@ runner2 = Runner(
 # %prun runner.run(num_episodes=2, callback=callback, callback_episode_frequency=1)
 
 # callback_episode_frequency --> saving results and trajs frequency
-runner2.run(num_episodes=32000, callback=callback, callback_episode_frequency=1)
+runner2.run(num_episodes=35000, callback=callback, callback_episode_frequency=1)
 # runner2.run(num_episodes=100, evaluation=True)
 runner2.close()
