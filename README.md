@@ -1,6 +1,6 @@
-# clusgm_drl
+# DRL for exploration of Ag Clusters
 ### DRL Framework for Nanocluster Global Minimum Search 
-We have developed a pioneering Deep Reinforcement Learning (DRL) framework for exploring the potential energy surfaces of nanoclusters, efficiently identifying ground state and low-energy configurations across various cluster types and sizes. This innovation represents the first application of DRL in the ground state search for nanoclusters, demonstrating exceptional adaptability and potential for advancing materials science.
+We have developed a Deep Reinforcement Learning (DRL) framework for exploring nanoclusters, efficiently identifying ground state and low-energy configurations across various cluster types and sizes. 
 
 
 
