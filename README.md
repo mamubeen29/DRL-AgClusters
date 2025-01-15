@@ -17,7 +17,7 @@ We have developed a Deep Reinforcement Learning (DRL) framework for exploring na
 
 2. **Configure the Nanocluster Composition:**
    - Edit `gym_trpo_single.py` to select the desired nanocluster composition.
-   - **Monometallic Example:** For simulating a cluster of 15 Silver (Ag) atoms:
+   - For simulating a cluster of 13 Silver (Ag) atoms:
      ```python
      eleNames = ['Ag']
      eleNums = [13]
