@@ -1,6 +1,6 @@
 # DRL for exploration of Ag Clusters
 ### DRL Framework for Nanocluster Global Minimum Search 
-We have developed a Deep Reinforcement Learning (DRL) framework for exploring nanoclusters, efficiently identifying ground state and low-energy configurations across various cluster types and sizes. 
+We have developed a Deep Reinforcement Learning (DRL) framework for exploring nanoclusters, efficiently identifying ground state and low-energy configurations. 
 
 ![Diagram actor critic_page-0002](https://github.com/user-attachments/assets/358e0c86-16a9-4bbc-a94b-9e95fa90804c)
 
@@ -24,7 +24,7 @@ We have developed a Deep Reinforcement Learning (DRL) framework for exploring na
      ```
 
 3. **Run the Simulation:**
-   - Execute the script using Python. Choose the appropriate version for your needs:
+   - Execute the script using Python.
      ```bash
-     python gym_trpo_single.py    # For single execution
+     python gym_trpo_single.py
      ```
